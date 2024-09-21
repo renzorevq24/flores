@@ -9,7 +9,7 @@ function es_11_11 () {
   let horas = ahora.getHours(); 
   let minutos = ahora.getMinutes(); 
   
-  if ((horas === 11 || horas === 23) && minutos === 11) {
+  if ((horas === 11 || horas === 23) && minutos >= 11 && minutos <= 16) {
       return true; 
   } else {
       return false; 
