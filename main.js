@@ -3,10 +3,10 @@ onload = () =>{
     document.getElementById('btnHora').addEventListener('click', () => {
         console.log(es_11_11())
         if(es_11_11()){
-            document.getElementById('lblHora').innerHTML = 'Chiii, es la hora ...'
+            document.getElementById('lblHora').innerHTML = 'Bueno no era a esta hora xd, pero igual te lo mereces mi niñ preciosa ...'
             setTimeout(() => {
                 window.location.href = "flores.html";
-            }, 2500)
+            }, 3000)
         }
         else {
             document.getElementById('lblHora').innerHTML = 'Esperate, aun no es la hora ...'
